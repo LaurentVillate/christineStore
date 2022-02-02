@@ -11,6 +11,7 @@ $lang = array(
     "legal" => "legal",
     "conditions" => "terms and Conditions of Sale",
     //about
+    "abouttitle" => "About Christine’s",
     "bio"=> "With a keen eye for detail and refined elegance, and a passion for beautiful materials created by designers from diverse cultural backgrounds, I am drawn to surprising combinations of materials crafted into striking pieces of jewelry and accessories. 
 
     My dive into this exciting, creative and enchanting world of fashion and design, has led me on fifteen year journey across Africa, Asia and South America. This in turn, has naturally inspired me to launch my own concept store.
