@@ -5,15 +5,31 @@
 }
 
 hr{
-    color:black;
+    color:darkgoldenrod;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0px;
+    margin-bottom: 0px;;
+    width:85%;
+    
 }
 
 .margincarousel{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+}
+
+.imgcarousel{
+    max-height:700px;
 }
 
 .textelong{
     font-family: 'Raleway', sans-serif;
     font-size:90%;
+}
+
+.icones{
+    color:saddlebrown;
+    font-size:140%;
 }

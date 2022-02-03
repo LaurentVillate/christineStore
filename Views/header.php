@@ -13,20 +13,22 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="public/CSS/style.css">
 </head>
 
 <body>
-  <div class="container">
+ 
     <header>
-      <nav class="navbar flex-column flex-sm-row">
+      <nav class="navbar">
+      <div class="container">
         <ul class="nav d-flex flex-grow-1 fontmenu">
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link text-reset" href="#"><i class="bi bi-facebook"></i></a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-reset" href="#"><i class="bi bi-instagram"></i></a>
-          </li>
+          </li>-->
           <li class="nav-item">
             <a class="nav-link text-reset" href="#"><i class="bi bi-geo-alt"></i> 13, rue d'Alençon – 61130 Bellême</a>
           </li>
@@ -34,7 +36,7 @@
             <a class="nav-link text-reset" href="#"><i class="bi bi-telephone-fill"></i> 02 33 85 74 53</a>
           </li>
         </ul>
-        <ul class="nav d-flex justify-content-sm-end fontmenu">
+        <ul class="nav d-flex justify-content-end fontmenu">
           <li class="nav-item">
             <a class="nav-link text-reset fw-bold text-decoration-underline" href="index.php?lang=fr">FR</a>
           </li>
@@ -42,39 +44,44 @@
             <a class="nav-link text-reset fw-bold text-decoration-underline" href="index.php?lang=en">EN</a>
           </li>
         </ul>
+</div>
       </nav>
     </header>
-    <hr></hr>
-    <nav class="navbar sticky-top navbar-expand-lg bg-white">
+   <hr>
+    </hr>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+    <div class="container">
       <a class="navbar-brand d-flex flex-grow-1" href="#">
-        <img src="public/img/christine-logo.png" height="40" alt="">
+        <img src="public/img/christine-logo.png" class="img-responsibvde" height="30" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <!--<span class="navbar-toggler-icon"></span>-->
+        <i class="bi bi-list"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav justify-content-between fontmenu" style="width:100%">
+        <div class="navbar-nav d-flex justify-content-between fontmenu" style="width:100%">
           <a class="nav-link text-reset" href="#"><?=$lang['home']?></a>
           <a class="nav-link text-reset" href="#"><?=$lang['designers']?></a>
           <a class="nav-link text-reset" href="#aboutChristine"><?=$lang['about']?></a>
           <a class="nav-link text-reset" href="#"><?=$lang['contact']?></a>
           <a class="nav-link text-reset" href="#"><?=$lang['shop']?></a>
-          <ul class="nav justify-content-sm-end">
-            <li class="nav-item">
-              <a class="nav-link text-reset" href="#"><i class="bi bi-person-fill"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-reset" href="#"><i class="bi bi-cart4"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-reset" href="#"><i class="bi bi-search"></i></a>
-            </li>
-          </ul>
         </div>
       </div>
+      <ul class="nav d-flex justify-content-md-end">
+        <li class="nav-item">
+          <a class="nav-link text-reset" href="#"><i class="bi bi-person-fill"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-reset" href="#"><i class="bi bi-cart4"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-reset" href="#"><i class="bi bi-search"></i></a>
+        </li>
+      </ul>
+</div>
     </nav>
-  </div>
+
   <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid px-5">
             <a class="navbar-brand" href="/PDO/index.php"><i class="bi bi-house-door-fill py-0 text-danger"></i></a>
