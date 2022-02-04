@@ -1,4 +1,10 @@
 
+.fonttopfoot{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:black!important;
+    font-size: 0.8rem;
+}
+
 .fontmenu{
     font-family: 'Montserrat Alternates', sans-serif;
     color:black!important;
@@ -14,14 +20,10 @@ hr{
     
 }
 
-.margincarousel{
-    margin-top: 60px;
-    margin-bottom: 60px;
-    
-}
-
-.imgcarousel{
-    max-height:700px;
+.legendephoto{
+    font-family: 'Raleway', sans-serif;
+    font-size:80%;
+    color:darkgrey;
 }
 
 .textelong{
@@ -33,3 +35,17 @@ hr{
     color:saddlebrown;
     font-size:140%;
 }
+/* style pour créer les miniatures carrés des designers */
+.thumbnail-container{
+    width:300px;
+    height:300px;
+  }  
+img.thumbnail{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+  }
+
+
+

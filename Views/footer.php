@@ -1,7 +1,7 @@
 <footer>
   <hr></hr>
   <div class="container">
-    <ul class="nav nav-fill fontmenu p-2">
+    <ul class="nav nav-fill fonttopfoot p-2">
       <li class="nav-item text-reset">
         <!--<a class="navbar-brand" href="#">
       <img src="public/img/christine-logo.png" alt="" height="24" class="">

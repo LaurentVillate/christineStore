@@ -22,7 +22,7 @@
     <header>
       <nav class="navbar">
       <div class="container">
-        <ul class="nav d-flex flex-grow-1 fontmenu">
+        <ul class="nav d-flex flex-grow-1 fonttopfoot">
           <!--<li class="nav-item">
             <a class="nav-link text-reset" href="#"><i class="bi bi-facebook"></i></a>
           </li>
@@ -30,10 +30,10 @@
             <a class="nav-link text-reset" href="#"><i class="bi bi-instagram"></i></a>
           </li>-->
           <li class="nav-item">
-            <a class="nav-link text-reset" href="#"><i class="bi bi-geo-alt"></i> 13, rue d'Alençon – 61130 Bellême</a>
+            <a class="nav-link text-reset" href="https://goo.gl/maps/zVWdqiWP3w7hA3Q98" target="_blank"><i class="bi bi-geo-alt"></i> 13, rue d'Alençon – 61130 Bellême</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-reset" href="#"><i class="bi bi-telephone-fill"></i> 02 33 85 74 53</a>
+            <a class="nav-link text-reset" href="tel:+33233857453"><i class="bi bi-telephone-fill"></i> 02 33 85 74 53</a>
           </li>
         </ul>
         <ul class="nav d-flex justify-content-end fontmenu">
@@ -62,9 +62,9 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav d-flex justify-content-between fontmenu" style="width:100%">
           <a class="nav-link text-reset" href="#"><?=$lang['home']?></a>
-          <a class="nav-link text-reset" href="#"><?=$lang['designers']?></a>
+          <a class="nav-link text-reset" href="#designers"><?=$lang['designers']?></a>
           <a class="nav-link text-reset" href="#aboutChristine"><?=$lang['about']?></a>
-          <a class="nav-link text-reset" href="#"><?=$lang['contact']?></a>
+          <a class="nav-link text-reset" href="#contactChristine"><?=$lang['contact']?></a>
           <a class="nav-link text-reset" href="#"><?=$lang['shop']?></a>
         </div>
       </div>
