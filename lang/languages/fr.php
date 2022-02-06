@@ -21,7 +21,9 @@ $lang = array(
     <p>Puis, une envie de nouvelles aventures m’entraîne en Colombie. Avec Régis mon compagnon, nous nous installons à Bogota. Cette immersion me permet de découvrir d’autres formes d’art et d’artisanat, d’autres couleurs…</p>
     <p><strong>L’esprit Christine’s se déploie désormais en version e-shopping.</strong> Le site met en avant ma sélection de designers en bijoux ou en accessoires. Des coups de cœur pour des créateurs qui effectuent un travail minutieux et proposent des pièces uniques ou des éditions limitées. Des pièces pour se démarquer avec classe.</p>
     <p><strong>Christine’s, agent de designers,</strong> accompagne les créateurs internationaux dans le développement de leur marque. Mon expérience (Conran Shop, Modénature) et mon réseau international me permettent de donner une visibilité plus grande à ces designers qui partagent avec moi la même vision de la mode : sens du détail, personnalité marquée et savoir-faire.</p>",
-    //Contact
+    //designers
+    "more" => "Plus",
+    //contact
     "message" => "Envoyer un message à Christine's",
     "visit" => "Visiter le concept store",
     "join" => "Rejoignez-nous sur",

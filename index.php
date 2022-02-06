@@ -73,16 +73,18 @@
         <div class="col-6 d-flex justify-content-center">
           <div class="thumbnail-container">
             <img src="public/img/johannabramble2.jpeg" class="thumbnail" alt="...">
-            <div class="card-text pt-3 pb-4 textelong">
+            <div class="card-text pt-3 pb-4 textelong text-center">
               <h5>Johanna Bramble</h5>
+              <a><?=$lang['more']?><i class="bi bi-caret-right-fill"></i></a>
             </div>
           </div>
         </div>
         <div class="col-6 d-flex justify-content-center">
           <div class="thumbnail-container">
             <img src="public/img/leilariaza3.png" class="thumbnail" alt="...">
-            <div class="card-text pt-3 pb-4 textelong">
+            <div class="card-text pt-3 pb-4 textelong text-center">
               <h5>Leila Riaza</h5>
+              <a><?=$lang['more']?><i class="bi bi-caret-right-fill"></i></a>
             </div>
           </div>
         </div>
@@ -91,16 +93,18 @@
         <div class="col-6 d-flex justify-content-center">
           <div class="thumbnail-container">
             <img src="public/img/lhonorable3.jpg" class="thumbnail" alt="...">
-            <div class="card-text pt-3 pb-4 textelong">
+            <div class="card-text pt-3 pb-4 textelong text-center">
               <h5>Lhonorable</h5>
+              <a><?=$lang['more']?><i class="bi bi-caret-right-fill"></i></a>
             </div>
           </div>
         </div>
         <div class="col-6 d-flex justify-content-center">
           <div class="thumbnail-container">
             <img src="public/img/vivekabergstrom4.png" class="thumbnail" alt="...">
-            <div class="card-text pt-3 pb-4 textelong">
+            <div class="card-text pt-3 pb-4 textelong text-center">
               <h5>Viveka Bergström</h5>
+              <a><?=$lang['more']?><i class="bi bi-caret-right-fill"></i></a>
             </div>
           </div>
         </div>

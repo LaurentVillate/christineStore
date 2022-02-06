@@ -21,6 +21,8 @@ $lang = array(
     <p>Craving a new adventure I, along with my partner Regis, embarked on a journey to Colombia’s capital city. Our immersion into Bogota’s vibrant culture allowed us to discover new forms of art, crafts and colours…</p>  
     <p><strong>Christine’s spirit is now being launched and displayed online</strong>, presenting my favourite selection of curated pieces created by exceptional jewelry and accessory designers. Meticulously crafted, these limited-edition quality pieces capture the essence of the artist’s distinguished talents, creativity, originality and class.</p> 
     <p><strong>Christine’s, as a designer agent,</strong> exceeds beyond its global showcase of fine and high-end products. I support international designers wanting to develop their brands. My past experiences with The Conran Shop and Modénature, as well as my international contacts and networks, open up unique set of opportunities and far-reaching visibility for designers who share my vision of fashion: exquisite attention to detail, unique personality and know-how.</p>",
+    //designers
+    "more" => "More",
     //Contact
     "message" => "Send a message to Christine's",
     "visit" => "Visit our concept store",
