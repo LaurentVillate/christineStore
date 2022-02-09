@@ -7,7 +7,7 @@
   <div class="container">
     <div class="row mt-2">
       <figure class="figure">
-        <img src="public/img/lhonorable.jpg" class="figure-img img-fluid" alt="...">
+        <img src="public/img/lhonorable.jpg" class="figure-img img-fluid" alt="lhonorable">
         <figcaption class="legendephoto">©lhonorable</figcaption>
       </figure>
     </div>
@@ -18,16 +18,16 @@
     </div>
     <div class="row pb-5 gx-3">
       <div class="col-3">
-        <img src="public/img/lhonorable2.jpg" class="img-responsive" style=width:100% alt="...">
+        <img src="public/img/lhonorable2.jpg" class="img-responsive" style=width:100% alt="lhonorable">
       </div>
       <div class="col-3">
-        <img src="public/img/leilariaza.png" class="img-responsive" style=width:100% alt="...">
+        <img src="public/img/leilariaza.png" class="img-responsive" style=width:100% alt="leilariaza">
       </div>
       <div class="col-3">
-        <img src="public/img/vivekabergstrom.png" class="img-responsive" style=width:100% alt="...">
+        <img src="public/img/vivekabergstrom.png" class="img-responsive" style=width:100% alt="viveka bergstrom">
       </div>
       <div class="col-3">
-        <img src="public/img/johannabramble.jpeg" class="img-responsive" style=width:100% alt="...">
+        <img src="public/img/johannabramble.jpeg" class="img-responsive" style=width:100% alt="johanna bramble">
       </div>
     </div>
   </div>
@@ -51,7 +51,7 @@
         </div>
         <div class="cols-12 col-sm-5">
           <figure class="figure">
-            <img src="public/img/portraitChristine.jpg" class="figure-img img-fluid" alt="...">
+            <img src="public/img/portraitChristine.jpg" class="figure-img img-fluid" alt="portrait de Christine par Antoine Tempé">
             <figcaption class="legendephoto">©Antoine Tempé</figcaption>
           </figure>
         </div>
@@ -72,19 +72,19 @@
       <div class="row py-5 gx-3">
         <div class="col-6 d-flex justify-content-center">
           <div class="thumbnail-container">
-            <img src="public/img/johannabramble2.jpeg" class="thumbnail" alt="...">
+            <img src="public/img/johannabramble2.jpeg" class="thumbnail" alt="johanna bramble">
             <div class="card-text pt-3 pb-4 textelong text-center">
               <h5>Johanna Bramble</h5>
-              <a><?=$lang['more']?><i class="bi bi-caret-right-fill"></i></a>
+              <a><?=$lang['more']?><i class="bi bi-caret-right-fill icones"></i></a>
             </div>
           </div>
         </div>
         <div class="col-6 d-flex justify-content-center">
           <div class="thumbnail-container">
-            <img src="public/img/leilariaza3.png" class="thumbnail" alt="...">
+            <img src="public/img/leilariaza3.png" class="thumbnail" alt="leila riaza">
             <div class="card-text pt-3 pb-4 textelong text-center">
               <h5>Leila Riaza</h5>
-              <a><?=$lang['more']?><i class="bi bi-caret-right-fill"></i></a>
+              <a><?=$lang['more']?><i class="bi bi-caret-right-fill icones"></i></a>
             </div>
           </div>
         </div>
@@ -92,19 +92,19 @@
       <div class="row py-5 gx-3">
         <div class="col-6 d-flex justify-content-center">
           <div class="thumbnail-container">
-            <img src="public/img/lhonorable3.jpg" class="thumbnail" alt="...">
+            <img src="public/img/lhonorable3.jpg" class="thumbnail" alt="lhonorable">
             <div class="card-text pt-3 pb-4 textelong text-center">
               <h5>Lhonorable</h5>
-              <a><?=$lang['more']?><i class="bi bi-caret-right-fill"></i></a>
+              <a><?=$lang['more']?><i class="bi bi-caret-right-fill icones"></i></a>
             </div>
           </div>
         </div>
         <div class="col-6 d-flex justify-content-center">
           <div class="thumbnail-container">
-            <img src="public/img/vivekabergstrom4.png" class="thumbnail" alt="...">
+            <img src="public/img/vivekabergstrom4.png" class="thumbnail" alt="viveka bergstrom">
             <div class="card-text pt-3 pb-4 textelong text-center">
               <h5>Viveka Bergström</h5>
-              <a><?=$lang['more']?><i class="bi bi-caret-right-fill"></i></a>
+              <a><?=$lang['more']?><i class="bi bi-caret-right-fill icones"></i></a>
             </div>
           </div>
         </div>
@@ -126,20 +126,20 @@
       <div class="card-text pb-5 text-center textelong">
         <h6> <?=$lang['message']?></h6>
         <div class="card-text pt-2 pb-5">
-          <a href="#"><i class="bi bi-envelope-open icones"></i></a>
+          <a href="Views/contact.php"><i class="bi bi-envelope-open iconesbig"></i></a>
         </div>
         <h6><?=$lang['visit']?></h6>
         <div class="card-text pt-2 pb-5">
           <p>13, rue d'Alençon – 61130 Bellême</p>
           <p>+33 (0)6 71 87 85 04</p>
-          <a href="https://goo.gl/maps/zVWdqiWP3w7hA3Q98" target="_blank"><i class="bi bi-geo-alt icones"></i></a>
+          <a href="https://goo.gl/maps/zVWdqiWP3w7hA3Q98" target="_blank"><i class="bi bi-geo-alt iconesbig"></i></a>
         </div>
         <h6><?=$lang['join']?></h6>
         <div class="card-text pt-2 pb-5">
           <span class="mx-2"><a href="https://www.facebook.com/pages/Christines/244740169024487?fref=ts"
-              target="_blank"><i class="bi bi-facebook icones"></i></a></span>
+              target="_blank"><i class="bi bi-facebook iconesbig"></i></a></span>
           <span class="mx-2"><a href="https://www.instagram.com/christinesstoreaccessories/" target="_blank"><i
-                class="bi bi-instagram icones"></i></a></span>
+                class="bi bi-instagram iconesbig"></i></a></span>
         </div>
         <h6><?=$lang['newsletter']?></h6>
         <div class="card-text pt-4 pb-5 d-flex justify-content-center">

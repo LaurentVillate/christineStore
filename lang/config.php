@@ -20,6 +20,7 @@
         }   
     }
 
-require_once "languages/".$_SESSION['lang'].".php";
+//require_once "languages/".$_SESSION['lang'].".php";
+require_once "/Applications/XAMPP/xamppfiles/htdocs/christineStore/lang/languages/".$_SESSION['lang'].".php";
 
 // NB: $_SESSION et $_GET sont des superglobables

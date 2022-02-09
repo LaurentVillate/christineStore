@@ -1,20 +1,45 @@
+
 <?php
-  include "lang/config.php"
+
+//code pour définir le chemin racine du localhost
+$url = $_SERVER['REQUEST_URI']; //returns the current URL
+echo $url. '<br>';
+$parts = explode('/',$url);
+print_r($parts);
+echo 'part : ' .print_r($parts). '<br> counts parts : '.count($parts).'<br>';
+$dir_root = $_SERVER['SERVER_NAME'];
+echo 'serveur name :' .$dir_root. '<br>';
+for ($i = 0; $i <= count($parts) - 1; $i++) {
+    $racine ="christineStore";
+    if($parts[$i] != $racine ){
+    $dir_root .= $parts[$i] . "/";
+    }else{
+        $i = count($parts) ;
+    }
+}
+echo 'root directory : ' .$dir_root. '<br>';
 ?>
+<?php
+  //require_once "lang/config.php";
+  require_once "/Applications/XAMPP/xamppfiles/htdocs/christineStore/lang/config.php"
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>christine</title>
+  <title>christinestore</title>
+  <meta name="description" content="christine's accompagne designers et créateurs de mode, bijoux et accessoires"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="public/CSS/style.css">
+  <!--<link rel="stylesheet" href="public/CSS/style.css">-->
+  <link rel="stylesheet" href="http://<?=$dir_root?>christineStore/public/CSS/style.css">
 </head>
 
 <body>
@@ -38,12 +63,13 @@
         </ul>
         <ul class="nav d-flex justify-content-end fontmenu">
           <li class="nav-item">
-            <a class="nav-link text-reset fw-bold text-decoration-underline" href="index.php?lang=fr">FR</a>
+            <!--<a class="nav-link text-reset fw-bold text-decoration-underline" href="<?=$url?>?lang=fr">FR</a>-->
+            <a class="nav-link text-reset fw-bold text-decoration-underline" href="<?=$_SERVER['PHP_SELF'].'?lang=fr'?>">FR</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-reset fw-bold text-decoration-underline" href="index.php?lang=en">EN</a>
+            <a class="nav-link text-reset fw-bold text-decoration-underline" href="<?=$_SERVER['PHP_SELF'].'?lang=en'?>">EN</a>
           </li>
-        </ul>
+</ul>
 </div>
       </nav>
     </header>
@@ -52,7 +78,7 @@
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
     <div class="container">
       <a class="navbar-brand d-flex flex-grow-1" href="#">
-        <img src="public/img/christine-logo.png" class="img-responsibvde" height="30" alt="">
+        <img src="public/img/christine-logo.png" class="img-responsibvde" height="30" alt="logo de Christine's">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

@@ -33,6 +33,11 @@ hr{
 
 .icones{
     color:saddlebrown;
+    font-size:100%;
+}
+
+.iconesbig{
+    color:saddlebrown;
     font-size:140%;
 }
 /* style pour créer les miniatures carrés des designers */
