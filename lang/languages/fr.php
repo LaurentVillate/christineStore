@@ -27,7 +27,15 @@ $lang = array(
     "message" => "Envoyer un message à Christine's",
     "visit" => "Visiter le concept store",
     "join" => "Rejoignez-nous sur",
-    "newsletter" => "Suivez les actualités de Christine's"
+    "newsletter" => "Suivez les actualités de Christine's",
+    //contact form
+    "yourname" => "Votre nom",
+    "youremail" => "Votre e-mail",
+    "object" => "Objet",
+    "yourmessage" => "Votre message",
+    "privacy" => "J'accepte la politique de confidentialité",
+    "submit" => "Envoyer"
+    
     )
 
 ?>

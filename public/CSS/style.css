@@ -31,6 +31,10 @@ hr{
     font-size:90%;
 }
 
+.erreur{
+    color:saddlebrown!important;
+}
+
 .icones{
     color:saddlebrown;
     font-size:100%;

@@ -27,7 +27,14 @@ $lang = array(
     "message" => "Send a message to Christine's",
     "visit" => "Visit our concept store",
     "join" => "Follow us on",
-    "newsletter" => "Follow Christine’s news"
+    "newsletter" => "Follow Christine’s news",
+    //contact form
+    "yourname" => "Your name",
+    "youremail" => "Your e-mail",
+    "object" => "Object",
+    "yourmessage" => "Your message",
+    "privacy" => "I accept the privacy policy",
+    "submit" => "Send"
 )
 
 ?>

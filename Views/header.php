@@ -3,12 +3,12 @@
 
 //code pour définir le chemin racine du localhost
 $url = $_SERVER['REQUEST_URI']; //returns the current URL
-echo $url. '<br>';
+//echo $url. '<br>';
 $parts = explode('/',$url);
-print_r($parts);
-echo 'part : ' .print_r($parts). '<br> counts parts : '.count($parts).'<br>';
+//print_r($parts);
+//echo 'part : ' .print_r($parts). '<br> counts parts : '.count($parts).'<br>';
 $dir_root = $_SERVER['SERVER_NAME'];
-echo 'serveur name :' .$dir_root. '<br>';
+//echo 'serveur name :' .$dir_root. '<br>';
 for ($i = 0; $i <= count($parts) - 1; $i++) {
     $racine ="christineStore";
     if($parts[$i] != $racine ){
@@ -17,7 +17,7 @@ for ($i = 0; $i <= count($parts) - 1; $i++) {
         $i = count($parts) ;
     }
 }
-echo 'root directory : ' .$dir_root. '<br>';
+//echo 'root directory : ' .$dir_root. '<br>';
 ?>
 <?php
   //require_once "lang/config.php";
@@ -78,7 +78,7 @@ echo 'root directory : ' .$dir_root. '<br>';
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
     <div class="container">
       <a class="navbar-brand d-flex flex-grow-1" href="#">
-        <img src="public/img/christine-logo.png" class="img-responsibvde" height="30" alt="logo de Christine's">
+        <img src="/christineStore/public/img/christine-logo.png" class="img-responsibvde" height="30" alt="logo de Christine's">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -87,10 +87,10 @@ echo 'root directory : ' .$dir_root. '<br>';
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav d-flex justify-content-between fontmenu" style="width:100%">
-          <a class="nav-link text-reset" href="#"><?=$lang['home']?></a>
-          <a class="nav-link text-reset" href="#designers"><?=$lang['designers']?></a>
-          <a class="nav-link text-reset" href="#aboutChristine"><?=$lang['about']?></a>
-          <a class="nav-link text-reset" href="#contactChristine"><?=$lang['contact']?></a>
+          <a class="nav-link text-reset" href="/christineStore/index.php#"><?=$lang['home']?></a>
+          <a class="nav-link text-reset" href="/christineStore/index.php#designers"><?=$lang['designers']?></a>
+          <a class="nav-link text-reset" href="/christineStore/index.php#aboutChristine"><?=$lang['about']?></a>
+          <a class="nav-link text-reset" href="/christineStore/index.php#contactChristine"><?=$lang['contact']?></a>
           <a class="nav-link text-reset" href="#"><?=$lang['shop']?></a>
         </div>
       </div>
