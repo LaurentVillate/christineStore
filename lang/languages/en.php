@@ -30,11 +30,21 @@ $lang = array(
     "newsletter" => "Follow Christine’s news",
     //contact form
     "yourname" => "Your name",
-    "youremail" => "Your e-mail",
-    "object" => "Object",
+    "youremail" => "Your e-mail adress",
+    "object" => "Subject",
     "yourmessage" => "Your message",
     "privacy" => "I accept the privacy policy",
-    "submit" => "Send"
+    "submit" => "Send",
+    "emptyname" => "You are required to enter your name",
+    "emptymail" => "You are required to enter your email adress",
+    "emptysubject" => "You are required to enter a subject for your message",
+    "emptymessage" => "You are required to enter a message",
+    "emptyprivacy" => "Please agree to our privacy policy",
+    "errorname" => "Enter only letters and dashes",
+    "errormail" => "Enter a valid e-mail adress",
+    "errorsubject" => "Enter only letters and dashes",
+    "errormessage" => "Your message contains characters that are not accepted",
+    "successmessage" => "The message has been sent"
 )
 
 ?>

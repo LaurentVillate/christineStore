@@ -34,8 +34,17 @@ $lang = array(
     "object" => "Objet",
     "yourmessage" => "Votre message",
     "privacy" => "J'accepte la politique de confidentialité",
-    "submit" => "Envoyer"
-    
+    "submit" => "Envoyer",
+    "emptyname" => "Veuillez renseigner votre nom",
+    "emptymail" => "Veuillez renseigner votre adresse mail",
+    "emptysubject" => "Merci d'indiquer l'objet de votre message",
+    "emptymessage" => "Ecrivez votre message",
+    "emptyprivacy" => "Merci d'accepter notre politique de confidentialité",
+    "errorname" => "Saisissez seulement des lettres et des tirets",
+    "errormail" => "adresse mail non valide",
+    "errorsubject" => "Saisissez seulement des lettres et des tirets",
+    "errormessage" => "Votre message contient des caractères non acceptés",
+    "successmessage" => "Message envoyé"
     )
 
 ?>
