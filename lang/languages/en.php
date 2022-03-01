@@ -29,6 +29,8 @@ $lang = array(
     "join" => "Follow us on",
     "newsletter" => "Follow Christine’s news",
     //contact form
+    "introform" => "<p>I am pleased to receive your comments, questions and orders, and will reply to you personally within 24/48H.</p>
+    <p></p>",
     "yourname" => "Your name",
     "youremail" => "Your e-mail adress",
     "object" => "Subject",
@@ -44,7 +46,11 @@ $lang = array(
     "errormail" => "Enter a valid e-mail adress",
     "errorsubject" => "Enter only letters and dashes",
     "errormessage" => "Your message contains characters that are not accepted",
-    "successmessage" => "The message has been sent"
+    "successmessage" => "The message has been sent",
+     //newsletter form
+     "newsletterintro" => "Receive our newsletter",
+     "newsletterbutton" => "Subscribe",
+     "newsletterlegal" => "By providing your email address, you agree to receive the Christine's newsletter. You may unsubscribe at any moment by clicking on the unsubscribe links at the bottom of our emails or by requesting it via contact. For more information, please see our privacy policy.", 
 )
 
 ?>

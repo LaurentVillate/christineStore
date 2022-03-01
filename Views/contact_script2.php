@@ -61,10 +61,42 @@
 
     //Si toutes les variables d'erreur sont vides, le formulaire est envoyé, sinon on reste sur la page du formulaire//
     if (empty($erreur_nom) && empty($erreur_objet) && empty($erreur_mail) && empty($erreur_message) && empty($erreur_privacy)){
-    // Le message de succès eest stocké dans une variabe puis s'affiche dans une alert JS. Redirection en JS//    
+    // Le message de succès est stocké dans une variabe puis s'affiche dans une alert JS. Redirection en JS//    
         $success = $lang['successmessage'];
         echo "<script>alert('$success');</script>"; 
         echo "<script>window.location.href = '../index.php';</script>";       
+    }
+    else{
+    // En cas d'erreur(s) dans le formulaire, on reste sur la page//
+        include("contact.php");
+    }
+
+// VERSION AVEC ENVOI DU MAIL ///////////////
+    //Si toutes les variables d'erreur sont vides, le formulaire est envoyé, sinon on reste sur la page du formulaire//
+    if (empty($erreur_nom) && empty($erreur_objet) && empty($erreur_mail) && empty($erreur_message) && empty($erreur_privacy)){        
+        //Envoi du mail//
+        //Stockage du contenu du message dans des variables //
+        $nom = $_POST["nom"];
+        $mail = $_POST["mail"];
+        $objet = $_POST["objet"];
+        $message = $_POST["message"];
+        //Adresse mail destinatrice//
+        $to="ICI: adresse mail où envoyer le message";
+        //Le sujet du mail tel qu'il apparaîtra dans boîte mail de réception//
+        $subject="Message depuis le site";
+        //Le message en lui même//
+        $msg .= 'Nom : '.$nom;
+        $msg .= 'Adresse mail : '.$mail;
+        $msg .= 'Objet : '.$objet;
+        $msg .= 'Message : '.$message;
+        //Les en-têtes du mail//
+        $headers = 'From: '.$email."\r\n".
+        //L'envoi du mail - Et page de redirection//
+        mail($to, $subject, $msg, $headers);
+        // Le message de succès est stocké dans une variabe puis s'affiche dans une alert JS. Redirection en JS//    
+        $success = $lang['successmessage'];
+        echo "<script>alert('$success');</script>"; 
+        echo "<script>window.location.href = '../index.php';</script>";
     }
     else{
     // En cas d'erreur(s) dans le formulaire, on reste sur la page//

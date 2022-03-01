@@ -29,6 +29,8 @@ $lang = array(
     "join" => "Rejoignez-nous sur",
     "newsletter" => "Suivez les actualités de Christine's",
     //contact form
+    "introform" => "<p>Je serais ravie de recevoir vos commentaires et de répondre à vos demandes.</p>
+    <p>Une réponse sous 24/48H vous sera faite personnellement.</p>",
     "yourname" => "Votre nom",
     "youremail" => "Votre e-mail",
     "object" => "Objet",
@@ -44,7 +46,11 @@ $lang = array(
     "errormail" => "adresse mail non valide",
     "errorsubject" => "Saisissez seulement des lettres et des tirets",
     "errormessage" => "Votre message contient des caractères non acceptés",
-    "successmessage" => "Message envoyé"
+    "successmessage" => "Message envoyé",
+    //newsletter form
+    "newsletterintro" => "Recevez la newsletter de Christine's",
+    "newsletterbutton" => "S'abonner",
+    "newsletterlegal" => "En fournissant votre adresse e-mail, vous acceptez de recevoir la newsletter de Christine's Store. Vous pourrez vous désabonner à n'importe quel moment en cliquant sur les liens de désabonnement situés en bas de nos e-mails ou sur simple demande via contact. Pour en savoir plus, consultez notre politique de confidentialité.",
     )
 
 ?>

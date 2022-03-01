@@ -7,8 +7,7 @@
         </div>
       </div>
       <div class="card-text pb-5 text-center textelong">
-<p>Je serais ravie de recevoir vos commentaires et de répondre à vos demandes.</p>
-<p>Une réponse sous 24/48H vous sera faite personnellement.</p>
+        <?=$lang['introform']?>
 </div>
 <form method="POST" action="contact_script2.php" class= "textelong">
 <div class="mb-3">

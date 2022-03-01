@@ -1,4 +1,3 @@
-
 <?php
 
 //code pour définir le chemin racine du localhost
@@ -31,7 +30,7 @@ for ($i = 0; $i <= count($parts) - 1; $i++) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>christinestore</title>
-  <meta name="description" content="christine's accompagne designers et créateurs de mode, bijoux et accessoires"/>
+  <meta name="description" content="christine's accompagne designers et créateurs de mode, bijoux et accessoires" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
@@ -43,9 +42,9 @@ for ($i = 0; $i <= count($parts) - 1; $i++) {
 </head>
 
 <body>
- 
-    <header>
-      <nav class="navbar">
+
+  <header>
+    <nav class="navbar">
       <div class="container">
         <ul class="nav d-flex flex-grow-1 fonttopfoot">
           <!--<li class="nav-item">
@@ -55,30 +54,35 @@ for ($i = 0; $i <= count($parts) - 1; $i++) {
             <a class="nav-link text-reset" href="#"><i class="bi bi-instagram"></i></a>
           </li>-->
           <li class="nav-item">
-            <a class="nav-link text-reset" href="https://goo.gl/maps/zVWdqiWP3w7hA3Q98" target="_blank"><i class="bi bi-geo-alt"></i> 13, rue d'Alençon – 61130 Bellême</a>
+            <a class="nav-link text-reset" href="https://goo.gl/maps/zVWdqiWP3w7hA3Q98" target="_blank"><i
+                class="bi bi-geo-alt"></i> 13, rue d'Alençon – 61130 Bellême</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-reset" href="tel:+33233857453"><i class="bi bi-telephone-fill"></i> 02 33 85 74 53</a>
+            <a class="nav-link text-reset" href="tel:+33233857453"><i class="bi bi-telephone-fill"></i> 02 33 85 74
+              53</a>
           </li>
         </ul>
         <ul class="nav d-flex justify-content-end fontmenu">
           <li class="nav-item">
             <!--<a class="nav-link text-reset fw-bold text-decoration-underline" href="<?=$url?>?lang=fr">FR</a>-->
-            <a class="nav-link text-reset fw-bold text-decoration-underline" href="<?=$_SERVER['PHP_SELF'].'?lang=fr'?>">FR</a>
+            <a class="nav-link text-reset fw-bold text-decoration-underline"
+              href="<?=$_SERVER['PHP_SELF'].'?lang=fr'?>">FR</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-reset fw-bold text-decoration-underline" href="<?=$_SERVER['PHP_SELF'].'?lang=en'?>">EN</a>
+            <a class="nav-link text-reset fw-bold text-decoration-underline"
+              href="<?=$_SERVER['PHP_SELF'].'?lang=en'?>">EN</a>
           </li>
-</ul>
-</div>
-      </nav>
-    </header>
-   <hr>
-    </hr>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <hr>
+  </hr>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
     <div class="container">
       <a class="navbar-brand d-flex flex-grow-1" href="#">
-        <img src="/christineStore/public/img/christine-logo.png" class="img-responsibvde" height="30" alt="logo de Christine's">
+        <img src="/christineStore/public/img/christine-logo.png" class="img-responsibvde" height="30"
+          alt="logo de Christine's">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -105,8 +109,8 @@ for ($i = 0; $i <= count($parts) - 1; $i++) {
           <a class="nav-link text-reset" href="#"><i class="bi bi-search"></i></a>
         </li>
       </ul>
-</div>
-    </nav>
+    </div>
+  </nav>
 
   <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid px-5">
