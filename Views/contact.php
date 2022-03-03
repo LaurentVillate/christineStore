@@ -9,7 +9,7 @@
       <div class="card-text pb-5 text-center textelong">
         <?=$lang['introform']?>
 </div>
-<form method="POST" action="contact_script2.php" class= "textelong">
+<form method="POST" action="contact_script.php" class= "textelong">
 <div class="mb-3">
   <!-- php: Si l'utilisateur rempli le champ, les caractères saisis sont insérés dans value et persistent tant que le formulaire n'est pas correct et envoyé.-->
   <label for="nom" class="form-label"><?=$lang['yourname']?></label>

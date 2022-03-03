@@ -124,7 +124,8 @@
       <div class="card-text pb-5 text-center textelong">
         <h6> <?=$lang['message']?></h6>
         <div class="card-text pt-2 pb-5">
-          <a href="Views/contact.php"><i class="bi bi-envelope-open iconesbig"></i></a>
+          <!--<a href="Views/contact.php"><i class="bi bi-envelope-open iconesbig"></i></a>-->
+          <a href="Views/Contact.php"><i class="bi bi-envelope-open iconesbig"></i></a>
         </div>
         <h6><?=$lang['visit']?></h6>
         <div class="card-text pt-2 pb-5">
